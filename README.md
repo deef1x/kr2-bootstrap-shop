@@ -1,3 +1,4 @@
+
 # Контрольная работа №2
 
 Тема: «CSS-фреймворки: разработка интерфейса на Bootstrap или альтернативном CSS-фреймворке».
@@ -21,10 +22,26 @@
 - сетка популярных товаров;
 - подвал страницы.
 
+## Практическая работа 10
+
+Тема: «Страница на Bootstrap: компоненты».
+
+Выполнено:
+
+- добавлена единая Bootstrap-навигация;
+- создана страница каталога `catalog.html`;
+- создана страница товара `product.html`;
+- создана страница заявки `order.html`;
+- использованы компоненты `navbar`, `card`, `btn`, `badge`, `alert`, `modal`;
+- использованы классы `form-control`, `form-select`, `form-check`, `input-group`;
+- добавлен компонент `accordion`;
+- добавлен файл `css/custom.css` для минимальных доработок;
+- проект подготовлен к сдаче контрольной работы №2.
+
 ## Используемые технологии
 
 - HTML;
-- Bootstrap;
+- Bootstrap 5;
 - CSS;
 - Git;
 - GitHub.
@@ -34,7 +51,12 @@
 ```text
 kr2-bootstrap-shop/
 ├── index.html
+├── catalog.html
+├── product.html
+├── order.html
 ├── css/
 │   └── custom.css
+├── images/
 ├── README.md
 └── .gitignore
+```
